@@ -1,0 +1,30 @@
+public class array4{
+
+    public static void main(String args[]){
+
+        int i,n,a;
+        int x[];
+        System.out.println("enter the array size :");
+        n = Integer.parseInt(System.console().readLine());
+        x = new int[n];
+        for(i = 0;i<x.length;i++){
+     System.out.println("enter a element :");
+     x[i] = Integer.parseInt(System.console().readLine());
+
+        }
+        System.out.println("enter you element  :")
+        a  = Integer.parseInt(System.console().readLine());
+    for(i = 0;i<x.length;i++){
+
+        if(x[i]==a){
+     System.out.println("element is found",x[i]);
+     
+        }
+    }
+if(i==n){
+
+    System.out.println("element is not found ")
+}
+
+    }
+}
